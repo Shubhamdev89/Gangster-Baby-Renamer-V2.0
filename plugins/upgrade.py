@@ -25,10 +25,10 @@ async def upgrade(bot,update):
 	for other payments method contact admin ```@piracyoff``
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @PiracyOff"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/PiracyOff")], 
-        			[InlineKeyboardButton("Paytm",url = "https://razorpay.me/@NinjaTV"),
+        			[InlineKeyboardButton("Paypal",url = "paypal.me/divyanshjind234"),
         			InlineKeyboardButton("Paytm",url = "https://razorpay.me/@NinjaTV")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
@@ -56,9 +56,9 @@ async def upgradecm(bot,message):
 	for other payments method contact admin ```@piracyoff``
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @PiracyOff"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/PiracyOff")], 
-        			[InlineKeyboardButton("Paytm",url = "https://razorpay.me/@NinjaTV"),
+        			[InlineKeyboardButton("Paypal",url = "paypal.me/divyanshjind234"),
         			InlineKeyboardButton("Paytm",url = "https://razorpay.me/@NinjaTV")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
