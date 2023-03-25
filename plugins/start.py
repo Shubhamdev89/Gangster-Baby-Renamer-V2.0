@@ -67,7 +67,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/JindalTechX")],
                                               [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/JindalTechX")],
                                               [InlineKeyboardButton("Donate Please if u Can", url='https://razorpay.me/@NinjaTV'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/NinjasTV)],
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/NinjasTV')],
                                              [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://razorpay.me/@NinjaTV')]
                                           ]))
             except:
