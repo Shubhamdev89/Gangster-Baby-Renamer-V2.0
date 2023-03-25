@@ -124,10 +124,10 @@ async def send_doc(client, message):
         daily = user_deta["daily"]
         user_type = user_deta["usertype"]
     except:
-        await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
+        await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **Please contact to My Owner**\n\nPlease Upgrade your Account by Upgrading plans ,
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/PiracyOff')],
-                                                                     [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://t.me/JindalTechX')],
+                                                                     [InlineKeyboardButton("🦋 Contact PiracyOff 🦋", url='https://telegram.me/PiracyOff')],
+                                                                     [InlineKeyboardButton("🔺 Subscribe Channel 🔺", url='https://t.me/JindalTechX')],
                                                                      [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/JindalTechX'),
                                                                      InlineKeyboardButton("  Support Group 🦋", url='https://t.me/JindaltechX')],
                                                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://razorpay.me/@NinjaTV')]
