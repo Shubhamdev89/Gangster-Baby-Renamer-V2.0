@@ -124,7 +124,7 @@ async def send_doc(client, message):
         daily = user_deta["daily"]
         user_type = user_deta["usertype"]
     except:
-        await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **Please contact to My Owner**\n\nPlease Upgrade your Account by Upgrading plans ,
+        await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **Contact the Admin **\nPlease try to contact the Admin @PiracyOff.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🦋 Contact PiracyOff 🦋", url='https://telegram.me/PiracyOff')],
                                                                      [InlineKeyboardButton("🔺 Subscribe Channel 🔺", url='https://t.me/JindalTechX')],
